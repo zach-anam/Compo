@@ -1,0 +1,27 @@
+.compo {
+  position: relative;
+}
+.compo:hover .compo-p:not(:hover) {
+  transform: scale(0.8);
+}
+.compo-p {
+  position: absolute;
+  width: 250px;
+  transition: all 0.4s;
+}
+.compo-p:hover {
+  transform: scale(1.1);
+  z-index: 10;
+}
+.compo-p-0 {
+  top: 20px;
+  left: 170px;
+}
+.compo-p-1 {
+  top: 0px;
+  left: 0px;
+}
+.compo-p-2 {
+  top: 70px;
+  left: 60px;
+}
